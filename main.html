@@ -1,0 +1,12 @@
+<html>
+  <head></head>
+  <body>
+    <div id="game"></div>
+    <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+    <script>
+      Crafty.init(700,350, document.getElementById('game'));
+      Crafty.e('2D, DOM, Color, Fourway').attr({x: 200, y: 0, w: 100, h: 100}).color('#F00').fourway(200);
+      Crafty.background('#FFFFFF url(bg.png) no-repeat center center');
+    </script>
+  </body>
+</html>
